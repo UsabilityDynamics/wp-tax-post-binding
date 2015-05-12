@@ -25,11 +25,8 @@
       "role": "Developer"
     }
   ],
-  autoload: {
-    files: [
-      "meta-box-loader.php"
-    ],
-    classmap: [
+  "autoload": {
+    "classmap": [
       "lib"
     ]
   }
