@@ -1,5 +1,5 @@
 {
-  name: "crowdfavorite/wp-tax-post-binding",
+  name: "usabilitydynamics/wp-tax-post-binding",
   type: "wordpress-plugin",
   keywords: [
     "wordpress",
