@@ -82,7 +82,7 @@ namespace UsabilityDynamics\CFTPB {
           array_push( $configs, array(
             'taxonomy' => $taxonomy,
             'post_type' => array(
-              '_'. $taxonomy,
+              strpos( $taxonomy, 0, 20 ),
               array(
                 'label' => $label,
                 'public' => true,
