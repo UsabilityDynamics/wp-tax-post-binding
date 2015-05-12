@@ -259,8 +259,8 @@ class cf_taxonomy_post_type_binding {
 	}
 	
 	public static function on_admin_head() {
+		$sel = array();
 		if (!empty(self::$taxonomies)) {
-			$sel = array();
 			foreach (self::$taxonomies as $record) {
 				$sel[] = 'a[href*="post-new.php?post_type='.$record['post_type'].'"]';
 			}
