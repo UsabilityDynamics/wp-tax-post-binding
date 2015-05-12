@@ -29,7 +29,7 @@ namespace UsabilityDynamics\CFTPB {
       /**
        *
        */
-      protected function __construct( $args = array() ) {
+      public function __construct( $args = array() ) {
         parent::__construct();
 
         if( !empty( $args['post_types'] ) && is_array( $args['post_types'] ) ) {
