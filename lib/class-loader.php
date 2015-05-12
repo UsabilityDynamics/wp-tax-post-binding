@@ -30,7 +30,6 @@ namespace UsabilityDynamics\CFTPB {
        *
        */
       public function __construct( $args = array() ) {
-        parent::__construct();
 
         if( !empty( $args['post_types'] ) && is_array( $args['post_types'] ) ) {
           $this->post_types = $args['post_types'];
