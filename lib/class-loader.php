@@ -117,6 +117,7 @@ namespace UsabilityDynamics\CFTPB {
                 'publicly_queryable' => true,
                 'show_ui' => false,
                 'show_in_menu' => false,
+                'rewrite' => $_taxonomy->rewrite,
                 'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields' ),
               )
             ),
